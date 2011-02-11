@@ -10,7 +10,7 @@ All you need
 ------------
 
 [Code / Docs](https://github.com/alexkazik/getopts)
-[Homepage](http://alex.kazik.de/xxxx)
+[Homepage](http://alex.kazik.de/195/getopts/)
 
 Example
 -------

@@ -6,11 +6,13 @@ easier to handle, also returns the other arguments and more.
 
 Requirement
 -----------
+
 PHP 5 (tested on PHP 5.3)
 
 
 Usage
 -----
+
 `getopts($params, $args=NULL, $raw=false)`
 
 * `$params`: is a list of options to parse.
@@ -27,7 +29,8 @@ Usage
 
 
 Returns
-------
+-------
+
 `list($errors, $params, $args) = getopts(...)`
 
 In case of an error while parsing the parameters,
@@ -241,4 +244,4 @@ Get involved
 
 just leave me a comment on my [homepage][].
 
-[homepage]: http://alex.kazik.de/xxxx
+[homepage]:  http://alex.kazik.de/195/getopts/
