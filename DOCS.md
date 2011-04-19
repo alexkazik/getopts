@@ -4,6 +4,9 @@ getopts
 getopts - a replacement for php's getopt — 
 easier to handle, also returns the other arguments and more.
 
+License: Creative Commons Attribution 3.0 Unported License
+http://creativecommons.org/licenses/by/3.0/
+
 Requirement
 -----------
 
@@ -245,3 +248,9 @@ Get involved
 just leave me a comment on my [homepage][].
 
 [homepage]:  http://alex.kazik.de/195/getopts/
+
+
+License
+-------
+
+[Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)

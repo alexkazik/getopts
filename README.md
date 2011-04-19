@@ -52,3 +52,9 @@ Example
 
 -a is given twice, and since a is defined as toggle it's off (false).
 -b is given (as the long version --long). No other arguments.
+
+
+License
+-------
+
+[Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)

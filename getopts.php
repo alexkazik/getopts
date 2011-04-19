@@ -6,7 +6,10 @@
 
 		Code / Docs: https://github.com/alexkazik/getopts
 		Homepage: http://alex.kazik.de/195/getopts/
-	
+
+		License: Creative Commons Attribution 3.0 Unported License
+		http://creativecommons.org/licenses/by/3.0/
+			
 	*/
 
 	function getopts($params, $args=NULL, $raw=false){
