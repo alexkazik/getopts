@@ -9,8 +9,9 @@ to php's [getopt][], which ich really crippled.
 All you need
 ------------
 
-[Code / Docs](https://github.com/alexkazik/getopts)
-[Homepage](http://alex.kazik.de/195/getopts/)
+* [Code](https://github.com/alexkazik/getopts)
+* [Docs](https://github.com/alexkazik/getopts/wiki/Documentation)
+* [Homepage](http://alex.kazik.de/195/getopts/)
 
 Example
 -------

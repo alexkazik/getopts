@@ -4,7 +4,8 @@
 
 		getopts by ALeX Kazik
 
-		Code / Docs: https://github.com/alexkazik/getopts
+		Code: https://github.com/alexkazik/getopts
+		Docs: https://github.com/alexkazik/getopts/wiki/Documentation
 		Homepage: http://alex.kazik.de/195/getopts/
 
 		License: Creative Commons Attribution 3.0 Unported License
