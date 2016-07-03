@@ -11,7 +11,7 @@ All you need
 
 * [Code](https://github.com/alexkazik/getopts)
 * [Docs](https://github.com/alexkazik/getopts/wiki/Documentation)
-* [Homepage](http://alex.kazik.de/195/getopts/)
+* [Issues](https://github.com/alexkazik/getopts/issues)
 
 Example
 -------
@@ -19,18 +19,17 @@ Example
 #### script "test.php"
 
 		<?php
-			require_once('getopts.php');
-			list($errors, $params, $args) = getopts(array(
-				'a' => array('St', 'a'), // param as array
-				'b' => 'Vs b long',     // param as string
-			));
-			if($errors){
-				die($errors[0].PHP_EOL);
+			require_once('GetOpts.php');
+			list($errors, $params, $args) = (new GetOpts([
+			  'a' => [GetOpts::TOGGLE, 'a'],
+			  'b' => [GetOpts::VALUE, 'b', 'long'],
+			]))->parse();
+			if ($errors) {
+			  die($errors[0].PHP_EOL);
 			}
 			echo 'a = '.var_export($params['a'], true).', ';
 			echo 'b = '.var_export($params['b'], true).', ';
 			echo 'args = '.var_export($args, true).PHP_EOL;
-		?>
 	
 #### sample input 1:
 
